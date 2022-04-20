@@ -34,22 +34,23 @@ torch>1.4.0 <br />
 ### TAMT-MLM
 The scripts for running TAMT-MLM are in the folder `mask_training/bash_files/train_mlm`. 
 
-To perform TAMT-MLM on BERT-base with 0.2 sparsity, run
+To perform TAMT-MLM on BERT-base with 0.7 sparsity, run
 ```
-  bash mask_training/bash_files/train_mlm/bert/0.2.sh
+  bash mask_training/bash_files/train_mlm/bert/0.7.sh
 ```
 
 ### TAMT-KD
-Before running TAMT-KD, we need to first prepare the training data:
+Before running TAMT-KD, we first need to prepare the training data:
 ```
   bash mask_training/bash_files/generate_kd_data_bert.sh
 ```
+The training data for TAMT-KD will be stored to `mask_training/data/wikitext-103-kd/epoch_0.json`.
 
 The scripts for running TAMT-KD are in the folder `mask_training/bash_files/train_kd`. 
 
-To perform TAMT-KD on BERT-base with 0.2 sparsity, run
+To perform TAMT-KD on BERT-base with 0.7 sparsity, run
 ```
-  bash mask_training/bash_files/train_kd/bert/0.2.sh
+  bash mask_training/bash_files/train_kd/bert/0.7.sh
 ```
 
 ### Iterative Magnitude Pruning (IMP)
