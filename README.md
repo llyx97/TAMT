@@ -32,7 +32,7 @@ torch>1.4.0 <br />
 ## Pruning and Mask Training
 
 ### TAMT-MLM
-To perform TAMT-MLM on BERT-base with 0.2 sparsity, run
+The scripts for TAMT-MLM are in the folder `mask_training/bash_files/train_mlm`. To perform TAMT-MLM on BERT-base with 0.2 sparsity, run
 ```
   bash mask_training/bash_files/train_mlm/bert/0.2.sh
 ```
