@@ -10,6 +10,8 @@ The code for downstream fine-tuning and IMP is modified from [BERT-Tickets](http
 
 ### Method: Task-Agnostic Mask Training (TAMT)
 
+TAMT learns the subnetwork structures on the pre-training dataset, using either the MLM loss or the KD loss. The identified subnetwork is then fine-tuned on a range of downstream tasks, in place of the original BERT model.
+
 ![](./figures/method.png)
 
 ### Correlation between the pre-training and downstream performance of BERT subentworks
