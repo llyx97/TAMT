@@ -8,4 +8,4 @@ The code for downstream fine-tuning and IMP is modified from [BERT-Tickets](http
 
 ## Overview
 
-![](./figures/method.pdf)
+![](./figures/method.png)
