@@ -8,10 +8,10 @@ The code for downstream fine-tuning and IMP is modified from [BERT-Tickets](http
 
 ## Overview
 
-# Method: Task-Agnostic Mask Training (TAMT)
+### Method: Task-Agnostic Mask Training (TAMT)
 
 ![](./figures/method.png)
 
-# Correlation between the pre-training and downstream performance of BERT subentworks
+### Correlation between the pre-training and downstream performance of BERT subentworks
 
 ![](./figures/loss_acc.PNG)
