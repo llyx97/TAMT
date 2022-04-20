@@ -40,11 +40,10 @@ To perform TAMT-MLM on BERT-base with 0.7 sparsity, run
 ```
 
 ### TAMT-KD
-Before running TAMT-KD, we first need to prepare the training data:
+Before running TAMT-KD, we first need to prepare the training data by running the following command, which will store the training data to `mask_training/data/wikitext-103-kd/epoch_0.json`.
 ```
   bash mask_training/bash_files/generate_kd_data_bert.sh
 ```
-The training data for TAMT-KD will be stored to `mask_training/data/wikitext-103-kd/epoch_0.json`.
 
 The scripts for running TAMT-KD are in the folder `mask_training/bash_files/train_kd`. 
 
