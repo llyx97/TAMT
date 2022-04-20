@@ -5,3 +5,7 @@ This repository contains implementation of the [paper](https://openreview.net/fo
 The code for task-agnostic mask training is based on [huggingface/transformers](https://github.com/huggingface/transformers) and [maskbert](https://github.com/ptlmasking/maskbert).
 
 The code for downstream fine-tuning and IMP is modified from [BERT-Tickets](https://github.com/VITA-Group/BERT-Tickets).
+
+## Overview
+
+![](./figures/method.pdf)
