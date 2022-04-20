@@ -6,6 +6,7 @@ The code for task-agnostic mask training is based on [huggingface/transformers](
 
 The code for downstream fine-tuning and IMP is modified from [BERT-Tickets](https://github.com/VITA-Group/BERT-Tickets).
 
+
 ## Overview
 
 ### Method: Task-Agnostic Mask Training (TAMT)
@@ -19,3 +20,10 @@ TAMT learns the subnetwork structures on the pre-training dataset, using either 
 The pre-training performance of a BERT subnetwork correlates with its down-stream transferability.
 
 ![](./figures/loss_acc.PNG)
+
+
+
+## Requirements
+
+Python3 <br />
+torch>1.4.0 <br />
