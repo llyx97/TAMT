@@ -31,6 +31,8 @@ torch>1.4.0 <br />
 
 ## Pruning and Mask Training
 
+The following instructions use BERT-base as the example, results of RoBERTa-base can be reproduced in similar fashion.
+
 ### TAMT-MLM
 The scripts for running TAMT-MLM are in the folder `mask_training/shell_scripts/train_mlm`. 
 
