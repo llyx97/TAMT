@@ -31,4 +31,14 @@ torch>1.4.0 <br />
 
 ## Pruning and Mask Training
 
+
 ### TAMT-MLM
+
+### TAMT-KD
+
+### Iterative Magnitude Pruning (IMP)
+
+### One-shot Magnitue Pruning (OMP)
+
+### Random Pruning
+
