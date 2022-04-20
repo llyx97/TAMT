@@ -27,3 +27,8 @@ The pre-training performance of a BERT subnetwork correlates with its down-strea
 
 Python3 <br />
 torch>1.4.0 <br />
+
+
+## Pruning and Mask Training
+
+### TAMT-MLM
