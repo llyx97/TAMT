@@ -8,6 +8,7 @@ python $root_dir/pregenerate_training_data.py \
 	--max_seq_len $length \
 	--do_lower_case \
 	--epochs_to_generate 1 \
+	--one_seq
 	
 python $root_dir/pregenerate_training_data.py \
 	--train_corpus $root_dir/data/wikitext-103/wiki.valid.raw \
@@ -15,4 +16,5 @@ python $root_dir/pregenerate_training_data.py \
 	--output_dir $root_dir/data/wikitext-103-kd/length$length/eval_data \
 	--max_seq_len $length \
 	--do_lower_case \
-	--epochs_to_generate 1
+	--epochs_to_generate 1 \
+	--one_seq
