@@ -134,17 +134,11 @@ To fine-tune the randomly pruned BERT-base subnetwork (0.7 sparsity) on task MNL
 ## Evaluating MLM and KD Loss
 Here we provide instructions on how to evaluate the MLM loss. KD loss can be evaluated in the same way using the scripts in `mask_training/shell_scripts/eval_kd`
 
-### Full Model
-To evaluate the MLM loss of the original pre-trained BERT-base on the validation set of Wikitext, run
+To evaluate the MLM loss of the models (including the original pre-trained BERT-base and the subnetworks) on the validation set of Wikitext, run
 ```
-  bash mask_training/shell_scripts/eval_mlm/bert.sh
+  bash mask_training/shell_scripts/eval_mlm/$name.sh
 ```
+where `$name=bert, omp, imp, rand, tamt_mlm or tamt_kd`.
 
-### TAMT
-To evaluate the MLM loss of the TAMT-MLM/KD BERT-base subnetworks, run
-```
-  bash mask_training/shell_scripts/eval_mlm/bert.sh
-```
-where `$tamt_path=train_mlm, train_kd or train_mlm_kd`.
 
 ## Mask Similarity and Distance
