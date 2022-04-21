@@ -55,7 +55,7 @@ To perform TAMT-KD on BERT-base with 0.7 sparsity, run
 ```
 
 ### Iterative Magnitude Pruning (IMP)
-The scripts for IMP are in the folder imp_and_fine_tune/shell_scripts/imp`. 
+The scripts for IMP are in the folder `imp_and_fine_tune/shell_scripts/imp`. 
 
 To perform IMP on BERT-base with an interval of 2,792 training steps between pruning steps, run
 ```
@@ -63,7 +63,7 @@ To perform IMP on BERT-base with an interval of 2,792 training steps between pru
 ```
 
 ### One-shot Magnitue Pruning (OMP) Random Pruning
-The scripts for OMP and random pruning are in the folder imp_and_fine_tune/shell_scripts/oneshot`. 
+The scripts for OMP and random pruning are in the folder `imp_and_fine_tune/shell_scripts/oneshot`. 
 
 To perform OMP on BERT-base, run
 ```
