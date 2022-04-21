@@ -7,8 +7,8 @@ export output_dir=$ROOT_DIR/models/prun_bert/unstructured/train_kd/wikitext-103/
 for seed in 1 2 3
 do
 	python $ROOT_DIR/train_kd.py \
-	    --teacher_model bert-base-uncased \
-	    --student_model bert-base-uncased \
+	    --teacher_model ${BERT_BASE_DIR}$ \
+	    --student_model ${BERT_BASE_DIR}$ \
 	    --pregenerated_data $ROOT_DIR/data/wikitext-103-kd/length$max_seq_len \
 	    --pregenerated_eval_data $ROOT_DIR/data/wikitext-103-kd/length$max_seq_len/eval_data \
 	    --controlled_init magnitude \
