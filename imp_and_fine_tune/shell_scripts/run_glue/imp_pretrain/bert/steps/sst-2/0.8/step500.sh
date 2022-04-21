@@ -1,6 +1,6 @@
 export root_dir=${root_directory}
 export task=SST-2
-export export zero_rate=0.8
+export zero_rate=0.8
 export prun_type=imp_pretrain
 export step=500
 

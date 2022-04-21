@@ -1,6 +1,6 @@
 export root_dir=${root_directory}
 export task=CoLA
-export export zero_rate=0.6
+export zero_rate=0.6
 export prun_type=imp_pretrain
 export step=2792
 

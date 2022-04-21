@@ -10,7 +10,7 @@ for task in tasks:
             lines = file.readlines()
             file.close()
 
-            lines[2] = 'export export zero_rate=%s\n'%zero
+            lines[2] = 'export zero_rate=%s\n'%zero
             file = open(os.path.join(task, zero, 'step%s.sh'%step), 'w')
             for line in lines:
                     file.write(line)
