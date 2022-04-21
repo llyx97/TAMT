@@ -86,6 +86,17 @@ To perform random pruning on BERT-base, run
 
 ## Fine-tuning
 
+### Full Model
+To fine-tune the full BERT-base on task MNLI, run
+```
+  bash imp_and_fine_tune/shell_scripts/run_glue/full_bert/mnli.sh
+```
+
+### OMP
+To fine-tune the OMP BERT-base subnetwork (0.7 sparsity) on task MNLI, run
+```
+  bash imp_and_fine_tune/shell_scripts/run_glue/oneshot/bert/mnli/0.7.sh
+```
 
 
 ## Evaluating MLM and KD Loss
