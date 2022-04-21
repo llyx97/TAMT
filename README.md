@@ -92,6 +92,13 @@ To fine-tune the full BERT-base on task MNLI, run
   bash imp_and_fine_tune/shell_scripts/run_glue/full_bert/mnli.sh
 ```
 
+### TAMT
+To fine-tune the TAMT-MLM, TAMT-KD or TAMT-MLM+KD BERT-base subnetwork (0.7 sparsity) on task MNLI, run
+```
+  bash imp_and_fine_tune/shell_scripts/run_glue/$tamt_path/main_result/bert/mnli/0.7.sh
+```
+where `$tamt_path=train_mlm, train_kd or train_mlm_kd`.
+
 ### IMP
 To fine-tune the IMP BERT-base subnetwork (0.7 sparsity) on task MNLI, run
 ```
