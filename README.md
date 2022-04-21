@@ -2,7 +2,7 @@
 
 This repository contains implementation of the [paper](https://openreview.net/forum?id=BRelke4S5l9) "Learning to Win Lottery Tickets in BERT Transfer via Task-agnostic Mask Training" in NAACL 2021.
 
-The code for task-agnostic mask training is based on [huggingface/transformers](https://github.com/huggingface/transformers), [TinyBERT](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/TinyBERT) knowledge distillation and [maskbert](https://github.com/ptlmasking/maskbert).
+The code for task-agnostic mask training is based on [huggingface/transformers](https://github.com/huggingface/transformers), [TinyBERT](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/TinyBERT) (for TAMT-KD) and [maskbert](https://github.com/ptlmasking/maskbert).
 
 The code for downstream fine-tuning and IMP is modified from [BERT-Tickets](https://github.com/VITA-Group/BERT-Tickets).
 
@@ -55,6 +55,12 @@ To perform TAMT-KD on BERT-base with 0.7 sparsity, run
 ```
 
 ### Iterative Magnitude Pruning (IMP)
+The scripts for IMP are in the folder imp_and_fine_tune/shell_scripts/imp`. 
+
+To perform IMP on BERT-base with an interval of 2,792 training steps between pruning steps, run
+```
+  bash imp_and_fine_tune/shell_scripts/imp/bert/prun_step2792/pretrain_imp_seed1.sh
+```
 
 ### One-shot Magnitue Pruning (OMP)
 
