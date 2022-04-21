@@ -60,6 +60,7 @@ The scripts for running TAMT-MLM+KD are in the folder `mask_training/shell_scrip
 To perform TAMT-MLM+KD on BERT-base with 0.7 sparsity, run
 ```
   bash mask_training/shell_scripts/train_mlm_kd/bert/0.7.sh
+```
 
 ### Iterative Magnitude Pruning (IMP)
 The scripts for IMP are in the folder `imp_and_fine_tune/shell_scripts/imp`. 
