@@ -30,6 +30,11 @@ Python3 <br />
 torch>1.4.0 <br />
 
 
+## Requirements
+Download the pre-training dataset WikiText-103 to `mask_training/data/wikitext-103`.
+
+Download the GLUE datasets to `imp_and_fine_tune/glue` and the SQuAD v1.1 dataset to `mask_training/data/squad`.
+
 ## Pruning and Mask Training
 
 The following instructions use BERT-base as the example, results of RoBERTa-base can be reproduced in similar fashion.
