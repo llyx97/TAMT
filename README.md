@@ -142,3 +142,12 @@ where `$name=bert, omp, imp, rand, tamt_mlm or tamt_kd`. Note that we don't need
 
 
 ## Mask Similarity and Distance
+To compute the similarity between OMP, IMP, TAMT-MLM and TAMT-KD masks, run:
+```
+  bash mask_training/shell_scripts/mask_sim.sh
+```
+
+To compute the distance from OMP mask, run:
+```
+  bash mask_training/shell_scripts/mask_dist.sh
+```
