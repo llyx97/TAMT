@@ -15,7 +15,7 @@ TAMT learns the subnetwork structures on the pre-training dataset, using either 
 
 ![](./figures/method.png)
 
-<a name=“correlation"></a>
+<a id=“correlation"></a>
 ### Pre-training and Downstream Performance
 
 The pre-training performance of a BERT subnetwork correlates with its down-stream transferability.
