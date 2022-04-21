@@ -99,6 +99,13 @@ To fine-tune the TAMT-MLM, TAMT-KD or TAMT-MLM+KD BERT-base subnetwork (0.7 spar
 ```
 where `$tamt_path=train_mlm, train_kd or train_mlm_kd`.
 
+### TAMT with Varied Pre-training Steps
+To fine-tune the TAMT-MLM or TAMT-KD BERT-base subnetworks (0.7 sparsity) obtained from 1,000 steps of pre-training on task MNLI, run
+```
+  bash imp_and_fine_tune/shell_scripts/run_glue/$tamt_path/steps/bert/mnli/0.7/step1000.sh
+```
+where `$tamt_path=train_mlm or train_kd`.
+
 ### IMP
 To fine-tune the IMP BERT-base subnetwork (0.7 sparsity) on task MNLI, run
 ```
