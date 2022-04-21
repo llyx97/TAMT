@@ -6,8 +6,8 @@ export output_dir=$ROOT_DIR/models/prun_bert/unstructured/train_kd/wikitext-103/
 
 export seed=1
 CUDA_VISIBLE_DEVICES=$(($seed-1)) python $ROOT_DIR/train_kd.py \
-    --teacher_model bert-base-uncased \
-    --student_model bert-base-uncased \
+    --teacher_model ${BERT_BASE_DIR}$ \
+    --student_model ${BERT_BASE_DIR}$ \
     --pregenerated_data $ROOT_DIR/data/wikitext-103-kd/length$max_seq_len \
     --pregenerated_eval_data $ROOT_DIR/data/wikitext-103-kd/length$max_seq_len/eval_data \
     --controlled_init uniform \
@@ -29,8 +29,8 @@ CUDA_VISIBLE_DEVICES=$(($seed-1)) python $ROOT_DIR/train_kd.py \
 
 export seed=2
 CUDA_VISIBLE_DEVICES=$(($seed-1)) python $ROOT_DIR/train_kd.py \
-    --teacher_model bert-base-uncased \
-    --student_model bert-base-uncased \
+    --teacher_model ${BERT_BASE_DIR}$ \
+    --student_model ${BERT_BASE_DIR}$ \
     --pregenerated_data $ROOT_DIR/data/wikitext-103-kd/length$max_seq_len \
     --pregenerated_eval_data $ROOT_DIR/data/wikitext-103-kd/length$max_seq_len/eval_data \
     --controlled_init uniform \
@@ -52,8 +52,8 @@ CUDA_VISIBLE_DEVICES=$(($seed-1)) python $ROOT_DIR/train_kd.py \
 
 export seed=3
 CUDA_VISIBLE_DEVICES=$(($seed-1)) python $ROOT_DIR/train_kd.py \
-    --teacher_model bert-base-uncased \
-    --student_model bert-base-uncased \
+    --teacher_model ${BERT_BASE_DIR}$ \
+    --student_model ${BERT_BASE_DIR}$ \
     --pregenerated_data $ROOT_DIR/data/wikitext-103-kd/length$max_seq_len \
     --pregenerated_eval_data $ROOT_DIR/data/wikitext-103-kd/length$max_seq_len/eval_data \
     --controlled_init uniform \
