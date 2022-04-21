@@ -112,6 +112,12 @@ To fine-tune the IMP BERT-base subnetwork (0.7 sparsity) on task MNLI, run
   bash imp_and_fine_tune/shell_scripts/run_glue/imp_pretrain/bert/mnli/0.7.sh
 ```
 
+### IMP with Varied Pre-training Steps
+To fine-tune the IMP BERT-base subnetwork (0.7 sparsity) obtained from 200*6=1,200 steps of pre-training on task MNLI, run
+```
+  bash imp_and_fine_tune/shell_scripts/run_glue/imp_pretrain/bert/steps/mnli/seed1/step200.sh
+```
+
 ### OMP
 To fine-tune the OMP BERT-base subnetwork (0.7 sparsity) on task MNLI, run
 ```
