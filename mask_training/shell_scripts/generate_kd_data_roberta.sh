@@ -7,10 +7,12 @@ python $root_dir/pregenerate_training_data.py \
 	--output_dir $root_dir/data/wikitext-103-kd/roberta \
 	--max_seq_len $length \
 	--epochs_to_generate 1 \
+	--one_seq
 	
 python $root_dir/pregenerate_training_data.py \
 	--train_corpus $root_dir/data/wikitext-103/wiki.valid.raw \
 	--bert_model roberta-base \
 	--output_dir $root_dir/data/wikitext-103-kd/roberta/eval_data \
 	--max_seq_len $length \
-	--epochs_to_generate 1
+	--epochs_to_generate 1 \
+	--one_seq
