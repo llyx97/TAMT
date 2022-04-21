@@ -138,7 +138,7 @@ To evaluate the MLM loss of the models (including the original pre-trained BERT-
 ```
   bash mask_training/shell_scripts/eval_mlm/$name.sh
 ```
-where `$name=bert, omp, imp, rand, tamt_mlm or tamt_kd`.
+where `$name=bert, omp, imp, rand, tamt_mlm or tamt_kd`. Note that we don't need to evalute the KD loss for BERT-base itself.
 
 
 ## Mask Similarity and Distance
