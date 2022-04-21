@@ -62,6 +62,13 @@ To perform TAMT-MLM+KD on BERT-base with 0.7 sparsity, run
   bash mask_training/shell_scripts/train_mlm_kd/bert/0.7.sh
 ```
 
+### TAMT with Random Mask Initialization
+As a default setting, we initialize TAMT with OMP mask, to perform TAMT with random mask initialization, run
+```
+  bash mask_training/shell_scripts/$tamt_type/bert/rand_mask_init/0.7.sh
+```
+where `$tamt_type=train_mlm or train_kd`.
+
 ### Iterative Magnitude Pruning (IMP)
 The scripts for IMP are in the folder `imp_and_fine_tune/shell_scripts/imp`. 
 
