@@ -139,6 +139,8 @@ To fine-tune the randomly pruned BERT-base subnetwork (0.7 sparsity) on task MNL
 
 
 ## Evaluating MLM and KD Loss
+To analyse the [correlation between subnetworks' pre-training and downstream performace](https://github.com/llyx97/TAMT#pre-training-and-downstream-performance), we need to calculate the MLM and KD loss.
+
 Here we provide instructions on how to evaluate the MLM loss. KD loss can be evaluated in the same way using the scripts in `mask_training/shell_scripts/eval_kd`
 
 To evaluate the MLM loss of the models (including the original pre-trained BERT-base and the subnetworks) on the validation set of Wikitext, run
