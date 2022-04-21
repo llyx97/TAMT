@@ -35,7 +35,7 @@ Download the pre-training dataset [WikiText-103](https://www.salesforce.com/prod
 
 Download the [GLUE](https://gluebenchmark.com/) datasets to `imp_and_fine_tune/glue` and the [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) v1.1 dataset to `mask_training/data/squad`.
 
-Download `bert-base-uncased` and `roberta-base`.
+Download `bert-base-uncased` and `roberta-base` from [huggingface models](https://huggingface.co/models).
 
 ## Pruning and Mask Training
 
