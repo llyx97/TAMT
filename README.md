@@ -92,10 +92,22 @@ To fine-tune the full BERT-base on task MNLI, run
   bash imp_and_fine_tune/shell_scripts/run_glue/full_bert/mnli.sh
 ```
 
+### IMP
+To fine-tune the IMP BERT-base subnetwork (0.7 sparsity) on task MNLI, run
+```
+  bash imp_and_fine_tune/shell_scripts/run_glue/imp_pretrain/bert/mnli/0.7.sh
+```
+
 ### OMP
 To fine-tune the OMP BERT-base subnetwork (0.7 sparsity) on task MNLI, run
 ```
   bash imp_and_fine_tune/shell_scripts/run_glue/oneshot/bert/mnli/0.7.sh
+```
+
+### Random Pruning
+To fine-tune the randomly pruned BERT-base subnetwork (0.7 sparsity) on task MNLI, run
+```
+  bash imp_and_fine_tune/shell_scripts/run_glue/rand/bert/mnli/0.7.sh
 ```
 
 
