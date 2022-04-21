@@ -9,8 +9,8 @@ for seed in 1 2 3
 do
 	python $ROOT_DIR/train_kd.py \
             --model_type $model_type \
-	    --teacher_model roberta-base \
-	    --student_model roberta-base \
+	    --teacher_model ${RoBERTa_BASE_DIR}$ \
+	    --student_model ${RoBERTa_BASE_DIR}$ \
 	    --pregenerated_data $ROOT_DIR/data/wikitext-103-kd/$model_type \
 	    --pregenerated_eval_data $ROOT_DIR/data/wikitext-103-kd/$model_type/eval_data \
 	    --controlled_init magnitude \
