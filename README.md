@@ -62,7 +62,7 @@ To perform IMP on BERT-base with an interval of 2,792 training steps between pru
   bash imp_and_fine_tune/shell_scripts/imp/bert/prun_step2792/pretrain_imp_seed1.sh
 ```
 
-### One-shot Magnitue Pruning (OMP) Random Pruning
+### One-shot Magnitue Pruning (OMP) and Random Pruning
 The scripts for OMP and random pruning are in the folder `imp_and_fine_tune/shell_scripts/oneshot`. 
 
 To perform OMP on BERT-base, run
@@ -74,8 +74,6 @@ To perform random pruning on BERT-base, run
 ```
   bash imp_and_fine_tune/shell_scripts/oneshot/bert_rand.sh
 ```
-
-### Random Pruning
 
 
 ## Fine-tuning
