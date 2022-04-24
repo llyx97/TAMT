@@ -37,6 +37,8 @@ Download the [GLUE](https://gluebenchmark.com/) datasets to `imp_and_fine_tune/g
 
 Download `bert-base-uncased` and `roberta-base` from [huggingface models](https://huggingface.co/models).
 
+
+
 ## Pruning and Mask Training
 
 The following instructions use BERT-base as the example, results of RoBERTa-base can be reproduced in similar fashion.
@@ -99,7 +101,7 @@ To perform random pruning on BERT-base, run
 ```
 
 
-## Fine-tuning
+## Fine-tuning on Downstream Tasks
 
 ### Full Model
 To fine-tune the full BERT-base on task MNLI, run
