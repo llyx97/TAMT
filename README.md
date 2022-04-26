@@ -1,6 +1,6 @@
 # Learning to Win Lottery Tickets in BERT Transfer via Task-agnostic Mask Training
 
-This repository contains implementation of the [paper](https://openreview.net/forum?id=D2mnbjkpk1-) "Learning to Win Lottery Tickets in BERT Transfer via Task-agnostic Mask Training" (accepted by NAACL 2022).
+This repository contains implementation of the [paper](https://arxiv.org/abs/2204.11218) "Learning to Win Lottery Tickets in BERT Transfer via Task-agnostic Mask Training" (accepted by NAACL 2022).
 
 The code for task-agnostic mask training is based on [huggingface/transformers](https://github.com/huggingface/transformers), [TinyBERT](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/TinyBERT) (for TAMT-KD) and [maskbert](https://github.com/ptlmasking/maskbert).
 
