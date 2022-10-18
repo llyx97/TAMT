@@ -170,3 +170,15 @@ To compute the distance from OMP mask, run:
 ```
   bash mask_training/shell_scripts/mask_dist.sh
 ```
+
+## Citation
+
+If you use this repository in a published research, please cite our paper:
+```bibtex
+@inproceedings{Liu2022TAMT,
+author = {Yuanxin Liu, Fandong Meng, Zheng Lin, Peng Fu, Yanan Cao, Weipinng Wang, Jie Zhou},
+title = {Learning to Win Lottery Tickets in BERT Transfer via Task-agnostic Mask Training},
+booktitle = {NAACL 2022},
+year = {2022}
+}
+```
